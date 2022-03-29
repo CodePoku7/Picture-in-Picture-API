@@ -1,4 +1,4 @@
-const videoElement = document.querySelector("video");
+const videoElement = document.getElementById("video");
 const button = document.querySelector("button");
 
 //Prompt to select media stream, pass to video element, then play
